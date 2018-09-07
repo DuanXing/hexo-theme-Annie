@@ -1,1 +1,5 @@
-<%- partial('_partial/post', {post: page}) %>
+<% if( page.type === "bizi") { %>
+    <%- partial('_partial/third/gallery/gallery', {post: page}) %>
+<% } else { %>
+    <%- partial('_partial/post', {post: page}) %>
+<% } %>
