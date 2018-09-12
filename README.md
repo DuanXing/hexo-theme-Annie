@@ -107,6 +107,25 @@ $ npm install hexo-generator-search-zip --save
 ```
 ```
 #站点目录下的_config.yml文件
+#highlight:  enable: false
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: false
+  line_number: true
+  auto_detect: false
+  tab_replace:
+  
+  ......
 
 search:
   path: search.json
